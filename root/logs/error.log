@@ -1,0 +1,14 @@
+[Tue May 07 04:28:34.197766 2019] [autoindex:error] [pid 8] [client 172.19.0.1:59814] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue May 07 04:28:35.915831 2019] [autoindex:error] [pid 8] [client 172.19.0.1:59814] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue May 07 04:28:48.967393 2019] [autoindex:error] [pid 12] [client 172.19.0.1:59824] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 20 13:38:47.352945 2019] [php7:error] [pid 16] [client 172.19.0.1:52526] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:39:01.243575 2019] [php7:error] [pid 18] [client 172.19.0.1:52530] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:39:02.904772 2019] [php7:error] [pid 18] [client 172.19.0.1:52530] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:39:14.774673 2019] [autoindex:error] [pid 20] [client 172.19.0.1:52534] AH01276: Cannot serve directory /var/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 20 13:39:30.769962 2019] [autoindex:error] [pid 16] [client 172.19.0.1:52596] AH01276: Cannot serve directory /var/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 20 13:40:53.766491 2019] [autoindex:error] [pid 18] [client 172.19.0.1:52600] AH01276: Cannot serve directory /var/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 20 13:40:54.423999 2019] [autoindex:error] [pid 18] [client 172.19.0.1:52600] AH01276: Cannot serve directory /var/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 20 13:41:01.750522 2019] [php7:error] [pid 19] [client 172.19.0.1:52602] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:45:31.173542 2019] [php7:error] [pid 21] [client 172.19.0.1:52620] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:45:32.127969 2019] [php7:error] [pid 21] [client 172.19.0.1:52620] script '/var/www/info.php' not found or unable to stat
+[Mon May 20 13:45:47.485323 2019] [php7:error] [pid 17] [client 172.19.0.1:52624] script '/var/www/info.php' not found or unable to stat
