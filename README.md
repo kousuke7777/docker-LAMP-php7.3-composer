@@ -8,7 +8,8 @@ Start
 3. show in browser web: http://localhost:10080/info.php  
 phpmyadmin: http://localhost:4040
 
-Installed  
+Installed
+
       *libicu-dev  
       *libpq-dev  
       *libzip-dev  
