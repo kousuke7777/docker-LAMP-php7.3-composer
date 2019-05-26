@@ -10,17 +10,17 @@ phpmyadmin: http://localhost:4040
 
 Installed
 
-      *libicu-dev  
-      *libpq-dev  
-      *libzip-dev  
-      *libpng-dev  
-      *libjpeg-dev  
-      *libfreetype6-dev  
-      *mysql-client  
-      *default-libmysqlclient-dev  
-      *ruby-full  
-      *nodejs  
-      *nano  
+        * libicu-dev  
+        * libpq-dev  
+        * libzip-dev  
+        * libpng-dev  
+        * libjpeg-dev  
+        * libfreetype6-dev  
+        * mysql-client  
+        * default-libmysqlclient-dev  
+        * ruby-full  
+        * nodejs  
+        * nano  
     PHP:7.3.5  
         PHP extention:
         * intl  
