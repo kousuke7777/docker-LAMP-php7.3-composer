@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 
-ADD custom-vhost.conf /etc/apache2/sites-available/000-default.conf
+RUN  a2enmod rewrite
 
 # Install Xdebug
 RUN curl -fsSL 'https://xdebug.org/files/xdebug-2.7.1.tgz' -o xdebug.tar.gz \

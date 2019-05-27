@@ -12,17 +12,7 @@ services:
     volumes:
       - "./root:/var/www"
       - "./docker/php-web/php.ini:/usr/local/etc/php/php.ini"
-
-#  php-cli:
-#    build: docker/php-web
-#    container_name: php-cli
-#    working_dir: /var/www
-#    command: php -v
-#    links:
-#      - mysql
-#    volumes:
-#      - "./root:/var/www"
-#      - "./docker/php-web/php.ini:/usr/local/etc/php/php.ini"
+      - "./docker/php-web/custom-vhost.conf:/etc/apache2/sites-available/000-default.conf"
 
   mysql:
     image: library/mysql:5.7
