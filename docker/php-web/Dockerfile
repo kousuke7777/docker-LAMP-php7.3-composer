@@ -20,32 +20,30 @@ RUN curl -fsSL 'https://xdebug.org/files/xdebug-2.7.1.tgz' -o xdebug.tar.gz \
     COPY ./php.ini /usr/local/etc/php/php.ini
     ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE = DontWarn
 
-RUN curl -sl https://deb.nodesource.com/setup_12.x | bash - \
-    && apt-get update && apt-get install -y \
-    libicu-dev \
-    libpq-dev \
-    libzip-dev \
-    libpng-dev \
-    mysql-client \
-    default-libmysqlclient-dev \
-    ruby-full \
-    nodejs \
-    && rm -r /var/lib/apt/lists/* \
-    && docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd \
-    && docker-php-ext-install \
-    intl \
-    mbstring \
-    mysqli \
-    pcntl \
-    pdo_mysql \
-    pdo_pgsql \
-    pgsql \
-    zip \
-    opcache \
-    gd
+RUN apt-get update && apt-get install -y \
+  libfreetype6-dev \
+  libjpeg62-turbo-dev \
+  libjpeg-dev \
+  libpng-dev \
+  libmcrypt-dev \
+  libicu-dev \
+  libpq-dev \
+  libzip-dev \
+  default-libmysqlclient-dev \
+  ruby-full \
+  nodejs \
+  nano \
+  cron \
+  && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
+  && docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd \
+  && docker-php-ext-install pdo_mysql mysqli mbstring gd iconv intl mbstring mysqli pcntl pdo_mysql pdo_pgsql pgsql zip opcache \
+  && apt-get clean
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
 # SASS compiler
 RUN su -c "gem install sass"
+
+# Timezone change Asia/Tkyo
+RUN cp /usr/share/zoneinfo/Japan /etc/localtime

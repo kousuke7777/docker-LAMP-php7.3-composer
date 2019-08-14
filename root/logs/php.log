@@ -2,3 +2,31 @@
 Stack trace:
 #0 {main}
   thrown in /var/www/laravel/public/index.php on line 2
+[12-Aug-2019 18:13:22 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:13:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:13:48 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:13:48 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:14:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:14:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
+[12-Aug-2019 18:14:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function gd_info() in /var/www/html/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/info.php on line 3
